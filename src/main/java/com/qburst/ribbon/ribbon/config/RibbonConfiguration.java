@@ -10,7 +10,7 @@ import com.netflix.loadbalancer.IRule;
 import com.netflix.loadbalancer.PingUrl;
 
 /**
- * this is for load balancing configurations
+ * this is for load balancing configurations using Ribbon load balancer
  */
 public class RibbonConfiguration {
 	@Autowired
