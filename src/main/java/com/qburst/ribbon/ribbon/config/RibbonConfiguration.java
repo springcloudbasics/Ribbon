@@ -9,6 +9,9 @@ import com.netflix.loadbalancer.IPing;
 import com.netflix.loadbalancer.IRule;
 import com.netflix.loadbalancer.PingUrl;
 
+/**
+ * this is for load balancing
+ */
 public class RibbonConfiguration {
 	@Autowired
     IClientConfig config;
